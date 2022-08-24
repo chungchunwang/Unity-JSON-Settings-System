@@ -2,7 +2,7 @@
 Extendable settings system for Unity UI. Data saved through JSON serialization.
 
 # Structure: 
-SettingsSystem is a MonoBehavior object that will hold your Settings object and serialize it into JSON. Create another script of your choosing that will define 2 of its static variables. SettingsSystem uses the singleton pattern so only one of it can exist and once, and it will persist through scenes. Additionally, it MUST have the tag "SettingsSystem", which will allow other classes in the package to interact with it.
+SettingsSystem is a MonoBehavior object that will hold your Settings object and serialize it into JSON. Create another script of your choosing that will define 2 of its static variables. SettingsSystem uses the singleton pattern so only one of it can exist and once, and it will persist through scenes. Additionally, it MUST have the tag "Settings System", which will allow other classes in the package to interact with it.
  1. path: where your data will be stored
  2. defaultSettings: the default version of the settings object.
 
