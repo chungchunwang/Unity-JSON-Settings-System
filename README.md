@@ -25,9 +25,6 @@ Each SettingsProperty extension has a corresponding prefab of that extends Setti
 
 To get a better understanding of how this structure works, check out the example scene.
 
-
-# Setup:
-TODO - It may be easier for now to just copy the setup in the example scene and make suitable edits.
-
+To set up using the package, it is recommended that you copy the working example in the example scene and make relevant changes to suit your needs.
 
 
